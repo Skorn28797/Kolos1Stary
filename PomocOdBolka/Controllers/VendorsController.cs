@@ -22,7 +22,7 @@ public class VendorsController : ControllerBase
         {
             // var result = await _dbService.MetodaAsync();
             var result = await _dbService.GetVendorDataAsync(code);
-            return Ok(); //rezultat
+            return Ok(result); //rezultat
         }
         catch (NotFoundException e)
         {
