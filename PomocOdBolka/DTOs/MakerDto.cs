@@ -1,0 +1,7 @@
+﻿namespace PomocOdBolka.DTOs;
+
+public class MakerDto
+{
+    public int Id { get; set; }
+    public string Name { get; set; } = null!;
+}
